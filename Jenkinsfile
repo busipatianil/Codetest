@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout'){
            steps {
                 git credentialsId: '', 
-                url: '',
-                branch: 'main'
+                url: 'https://github.com/busipatianil/Codetest.git',
+                branch: 'Feature'
            }
         }
